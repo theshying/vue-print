@@ -1,5 +1,5 @@
 module.exports = {
-    publicPath: process.env.NODE_ENV === 'production' ? '/v-resize' : '/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/vue-print' : '/',
     pages: {
         index: {
             entry: "examples/main.js",
