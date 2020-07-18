@@ -14,7 +14,7 @@
 </p>
 
 > 基于vue的一个打印任意dom区域的插件
-### [在线预览(兼容IE9+)](https://theshying.github.io/vue-prinf)
+### [在线预览(兼容IE9+)](https://theshying.github.io/vue-print)
 
 ## Introduction
 vue-print是一个能够打印任意dom区域的vue插件，秉承所见即所得的原则
