@@ -14,12 +14,12 @@
                 跑车的英文名是SportsCar或SportyCar，属于一种低底盘、线条流畅、动力突出的汽车类型，其最大特点是不断追求速度极限。跑车的分类有很多种，按车身结构可分为轿跑、敞篷跑车、双门跑车，按价值可分为平民跑车、超级跑车。
           </p>
            <div class="img-list">
-               <img src="../assets/1.jpg" alt="">
-               <img src="../assets/2.jpg" alt="">
-               <img src="../assets/3.jpg" alt="">
-               <img src="../assets/4.jpg" alt="">
-               <img src="../assets/5.jpg" alt="">
-               <img src="../assets/6.jpg" alt="">
+               <img src="./assets/1.jpg" alt="">
+               <img src="./assets/2.jpg" alt="">
+               <img src="./assets/3.jpg" alt="">
+               <img src="./assets/4.jpg" alt="">
+               <img src="./assets/5.jpg" alt="">
+               <img src="./assets/6.jpg" alt="">
            </div>
          
        </div>
