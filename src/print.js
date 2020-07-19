@@ -36,7 +36,6 @@ const prinf = options => {
         op.afterPrintHandle();
     }
     setTimeout(() => {
-        console.log(handle)
         handle.print();
         if (op.debug === false) {
             removeIframe();
@@ -58,7 +57,6 @@ const createIframe = (op) => {
     const contentWindow = iframe.contentWindow;
     //插入head中的link stylesheet
     if(importCss) {
-        //
         const stylesheets = document.querySelectorAll("link[rel = 'stylesheet']")
         stylesheets.forEach(item => {
             head.appendChild(item.cloneNode(true))
@@ -71,6 +69,7 @@ const createIframe = (op) => {
             body.appendChild(item.cloneNode(true))
         })
     }
+    //插入外部样式文件
     if (Array.isArray(loadCss) && loadCss.length > 0) {
         loadCss.forEach(item => {
             head.appendChild(item)
