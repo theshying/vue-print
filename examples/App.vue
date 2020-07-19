@@ -6,7 +6,7 @@
                <el-input type="textarea" rows="10" v-model="options"></el-input>
            </el-col>
            <el-col span="10">
-                <el-button type="primary" size="mini" @click="prinfHandle">打印</el-button>
+                <el-button type="primary" size="mini" @click="printHandle">打印</el-button>
            </el-col>
        </el-row>
        <div ref="view" class="container">
@@ -45,7 +45,7 @@ export default {
         }
     },
     methods: {
-        prinfHandle() {
+        printHandle() {
             this.$p({...JSON.parse(this.options), el: this.$refs.view});
         }
     },
