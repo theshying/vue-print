@@ -4,6 +4,9 @@
   "author": "theshy",
   "description": "打印任意dom区域的vue插件",
   "main": "lib/vue-print.umd.min.js",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "keywords": [
     "vue-print",
     "vue",
