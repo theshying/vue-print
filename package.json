@@ -1,6 +1,6 @@
 {
   "name": "@theshy/vue-print",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": "theshy",
   "description": "打印任意dom区域的vue插件",
   "main": "lib/vue-print.umd.min.js",
